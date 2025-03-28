@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column; /* Mettre le titre au-dessus */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222; /* Fond sombre autour du canvas */
+    overflow: hidden; /* Empêcher les barres de défilement */
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px; /* Espace entre titre et canvas */
+}
+
+canvas {
+    border: 1px solid white; /* Juste pour voir les limites pendant le dev */
+    background-color: black; /* Fond noir si l'image de fond ne charge pas */
+}
